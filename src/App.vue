@@ -1,17 +1,17 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <Logoos />
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+// mengimport file Logoos.vue kedalam App.vue
+import Logoos from './components/Logoos.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    Logoos
   }
 }
 </script>
